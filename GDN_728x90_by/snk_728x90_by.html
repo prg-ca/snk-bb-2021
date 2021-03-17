@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta name="ad.size" content="width=728,height=90">
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <script src="https://s0.2mdn.net/ads/studio/cached_libs/easepack_2.0.1_min.js"></script>
+  <script src="https://s0.2mdn.net/ads/studio/cached_libs/tweenlite_2.0.1_min.js"></script>
+  <script src="https://s0.2mdn.net/ads/studio/cached_libs/cssplugin_2.0.1_min.js"></script>
+  <script src="https://s0.2mdn.net/ads/studio/cached_libs/timelinemax_2.0.1_min.js"></script>
+  <script type="text/javascript">
+    var clickTag = "#"; 
+    document.addEventListener("DOMContentLoaded", function(event) { 
+      TweenLite.ticker.useRAF(false);
+      TweenLite.lagSmoothing(0);
+      var tl = new TimelineMax({ repeat: 3, repeatDelay: 4});
+
+      tl.from("#schirm", 0.6, {autoAlpha: 1})
+        .from("#txt01", 0.8, { opacity: 0, x: 200, ease: Bounce.easeOut}, '-=0.4')
+        .from("#txt02", 0.8, {opacity: 0, x: 200, ease: Bounce.easeOut}, '-=0.1')
+        .from("#bg02", 0.4, {y: -700}, '+=0.8')
+        .from("#txt03", 0.3, {opacity: 0, scale: 0.4}, '-=0.1')
+        .from("#txt04", 0.3, {opacity: 0, scale: 0.4}, '-=0.1')
+        .from("#prize01", 0.3, {opacity: 0,  y: -300}, '-=0.1')
+        .from("#prize02", 0.3, {opacity: 0,  y: -300}, '-=0.1')
+        .from("#prize03", 0.3, {opacity: 0, y: -300}, '-=0.1')
+        .from("#prize04", 0.3, {opacity: 0, y: -300}, '-=0.1')
+        .from("#legal", 0.3, {opacity: 0}, '-=0.1')
+        ;
+   });
+  </script>
+</head>
+<body>
+  <a href="javascript:window.open(window.clickTag)">
+    <div class="container">
+      <div id="txt01" class="el  txt">
+        <img src="txt01.svg">
+      </div>
+      <div id="txt02" class="el  txt">
+        <img src="txt02.svg">
+      </div>
+      <div id="bg02" class="el">
+      </div>
+
+      <div id="txt03" class="el  txt">
+        <img src="txt03.svg">
+      </div>
+      <div id="txt04" class="el  txt">
+        <img src="txt04.svg">
+      </div>
+      <div id="prize01" class="el">
+        <img src="laptop.png">
+      </div>
+      <div id="prize02" class="el">
+        <img src="phone.png">
+      </div>
+      <div id="prize04" class="el">
+        <img src="tablet.png">
+      </div>
+      <div id="prize03" class="el">
+        <img src="ears.png">
+      </div>
+      <div id="legal" class="el txt">
+        <img src="legal.svg">
+      </div>
+      <div id="schirm"></div>     
+    </div>
+  </a>
+</body>
