@@ -1,0 +1,132 @@
+
+body, body * {
+  vertical-align: baseline;
+  border: 0 none;
+  outline: 0;
+  padding: 0;
+  margin: 0;
+  font-family: Arial, sans-serif;
+  font-size: 9pt;
+  font-weight: 700;
+  color: #ecac06;
+}
+
+.container {
+  position: absolute;
+  width: 240px;
+  height: 400px;
+  top: 0;
+  left: 0;
+  z-index: 100;
+  cursor: pointer;
+  text-align: center;
+  box-sizing: border-box;
+  overflow: hidden;
+  /*top: 240px;*/
+  /*left: 600px;*/
+  background-color: #3c1400;
+  background-image: url("bg01.jpg");
+  background-size: cover;
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+
+.el {
+  position: absolute;
+  /*width: 60px;*/
+  left: 0;
+  top: 0;
+}
+
+.txt {
+  width: 240px;
+  left: 0px;
+}
+
+#txt01 {
+  top: 11px;
+}
+
+#txt02 {
+  top: 39px;
+
+}
+
+#txt03 {
+  width: 219px;
+  left: 10px;
+  top: 72px;
+}
+
+#txt04 {
+  width: 197px;
+  left: 21px;
+  top: 7px;
+
+}
+
+#logo {
+  width: 143px;
+  left: 18px;
+  top:88px;
+}
+
+#legal {
+  top: 354px;
+}
+
+#bg02 {
+  width: 240px;
+  height: 400px;
+  background-color: #3c1400;
+}
+
+
+
+
+#bg03 {
+  width: 240px;
+  height: 400px;
+  top: 0;
+  left: 0;
+  background-color: #3c1400;
+}
+
+#prize01 {
+  width: 228px;
+  left: 5px;
+  top: 119px;
+}
+#prize02 {
+  width: 84px;
+  left: 26px;
+  top:226px;
+}
+#prize03 {
+  width: 67px;
+  left: 25px;
+  top: 123px;
+}
+#prize04 {
+  width: 111px;
+  left: 118px;
+  top: 217px;
+}
+
+
+
+#schirm {
+  position: absolute;
+  width: 240px;
+  height: 400px;
+  top: 0;
+  left: 0;
+  background-color: #3c1400;
+  /*background-image: url("bg01.jpg");*/
+  background-size: cover;
+  opacity: 0;
+}
