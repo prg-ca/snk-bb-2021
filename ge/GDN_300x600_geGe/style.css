@@ -1,0 +1,136 @@
+
+body, body * {
+  vertical-align: baseline;
+  border: 0 none;
+  outline: 0;
+  padding: 0;
+  margin: 0;
+  font-family: Arial, sans-serif;
+  font-size: 9pt;
+  font-weight: 700;
+  color: #ecac06;
+}
+
+.container {
+  position: absolute;
+  width: 300px;
+  height: 600px;
+  top: 0;
+  left: 0;
+  z-index: 100;
+  cursor: pointer;
+  text-align: center;
+  box-sizing: border-box;
+  overflow: hidden;
+  /*top: 300px;*/
+  /*left: 600px;*/
+  background-color: #3c1400;
+  background-image: url("bg01.jpg");
+  background-size: cover;
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+
+.el {
+  position: absolute;
+  /*width: 60px;*/
+  left: 0;
+  top: 0;
+}
+
+.txt {
+  width: 300px;
+  left: 0px;
+}
+
+#txt01 {
+  top: 18px;
+
+}
+
+#txt02 {
+  top: 53px;
+}
+
+#txt03 {
+  width: 292px;
+  left: 5px;
+  top: 23px;
+
+}
+
+#txt04 {
+  width: 283px;
+  left: 8px;
+  top: 69px;
+}
+
+
+#logo {
+  width: 182px;
+  left: 17px;
+  top: 109px;
+}
+
+#bg02 {
+  width: 300px;
+  height: 600px;
+  background-color: #3c1400;
+}
+
+
+
+#bg03 {
+  width: 300px;
+  height: 600px;
+  top: 0;
+  left: 0;
+  background-color: #3c1400;
+}
+
+#laptop {
+  width: 285px;
+  left: 4px;
+  top: 179px;
+}
+#phone {
+  width: 105px;
+  left: 32px;
+  top: 334px;
+}
+#ears {
+  width: 80px;
+  left: 33px;
+  top: 153px;
+}
+#tablet {
+  width: 139px;
+  left: 140px;
+  top: 390px;
+}
+
+#link {
+  width: 264px;
+  height: 60px;
+  left: 17px;
+  top: 510px;
+  background: #e51b24;
+  border-radius: 14px;
+  box-shadow: 4px 4px 0 0  #a6141a; 
+}
+
+#schirm {
+  position: absolute;
+  width: 300px;
+  height: 600px;
+  top: 0;
+  left: 0;
+  background-color: #3c1400;
+  /*background-image: url("bg01.jpg");*/
+  background-size: cover;
+  opacity: 0;
+}
