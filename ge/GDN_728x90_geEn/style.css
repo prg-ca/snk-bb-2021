@@ -57,23 +57,18 @@ img {
 
 #txt03 {
   width: 242px;
-  left: 121px;
-  top: 29px;
+  left: 111px;
+  top: 27px;
 }
 
 #txt04 {
   width: 241px;
-  left: 355px;
+  left: 345px;
   top: 22px;
 
 }
 
 
-#legal {
-  width: 457px;
-  left: 134px;
-  top: 41px;
-}
 
 #bg02 {
   width: 728px;
@@ -94,22 +89,22 @@ img {
 
 #laptop {
   width: 125px;
-  left: 607px;
+  left: 597px;
   top: -2px;
 }
 #phone {
   width: 49px;
-  left: 611px;
+  left: 601px;
   top: 12px;
 }
 #ears {
   width: 49px;
-  left: 14px;
+  left: 20px;
   top: 14px;
 }
 #tablet {
   width: 82px;
-  left: 37px;
+  left: 52px;
   top: -3px;
   transform: rotate(10deg);
 }

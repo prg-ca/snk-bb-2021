@@ -1,0 +1,122 @@
+
+body, body * {
+  vertical-align: baseline;
+  border: 0 none;
+  outline: 0;
+  padding: 0;
+  margin: 0;
+  font-family: Arial, sans-serif;
+  font-size: 9pt;
+  font-weight: 700;
+  color: #ecac06;
+}
+
+.container {
+  position: absolute;
+  width: 640px;
+  height: 100px;
+  top: 0;
+  left: 0;
+  z-index: 100;
+  cursor: pointer;
+  text-align: center;
+  box-sizing: border-box;
+  overflow: hidden;
+  /*top: 240px;*/
+  /*left: 600px;*/
+  background-color: #3c1400;
+  background-image: url("bg01.jpg");
+  background-size: cover;
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+
+.el {
+  position: absolute;
+  /*width: 60px;*/
+  left: 0;
+  top: 0;
+}
+
+
+#txt01 {
+  width: 472px;
+  left: -14px;
+  top: 4px;
+}
+
+#txt02 {
+  width: 472px;
+  left: -14px;
+  top: 4px;
+}
+
+#txt03 {
+  width: 442px;
+  left: 92px;
+  top: 0px;
+}
+
+#txt04 {
+  width: 388px;
+  left: 120px;
+  top: 48px;
+}
+
+
+
+#bg02 {
+  width: 640px;
+  height: 100px;
+  background-color: #3c1400;
+}
+
+
+
+
+#bg03 {
+  width: 640px;
+  height: 100px;
+  top: 0;
+  left: 0;
+  background-color: #3c1400;
+}
+
+#laptop {
+  width: 134px;
+  left: 518px;
+  top: -6px;
+}
+#phone {
+  width: 52px;
+  left: 516px;
+  top: 18px;
+}
+#ears {
+  width: 48px;
+  left: 12px;
+  top: 20px;
+}
+#tablet {
+  width: 90px;
+  left: 32px;
+  top: 2px;
+}
+
+
+
+#schirm {
+  position: absolute;
+  width: 640px;
+  height: 100px;
+  top: 0;
+  left: 0;
+  background-color: #3c1400;
+  /*background-image: url("bg01.jpg");*/
+  background-size: cover;
+  opacity: 0;
+}
