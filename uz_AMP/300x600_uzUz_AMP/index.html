@@ -1,0 +1,446 @@
+<!DOCTYPE html>
+<html ⚡4ads>
+<head>
+  <meta charset="utf-8">
+  <meta name="ad.size" content="width=300,height=600">
+  <meta name="viewport" content="width=device-width,minimum-scale=1">
+  <style amp4ads-boilerplate>body{visibility:hidden}</style>
+  <script async src="https://cdn.ampproject.org/amp4ads-v0.js"></script>  
+  <style amp-custom>
+
+body, body * {
+  vertical-align: baseline;
+  border: 0 none;
+  outline: 0;
+  padding: 0;
+  margin: 0;
+  font-family: Arial, sans-serif;
+  font-size: 9pt;
+  font-weight: 700;
+  color: #ecac06;
+}
+
+.container {
+  position: absolute;
+  width: 300px;
+  height: 600px;
+  top: 0;
+  left: 0;
+  z-index: 100;
+  cursor: pointer;
+  text-align: center;
+  box-sizing: border-box;
+  overflow: hidden;
+  background-color: #3c1400;
+  background-image: url("bg01.jpg");
+  background-size: cover;
+  border: #3c1400 1px solid;
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+
+.el {
+  position: absolute;
+  /*width: 60px;*/
+  left: 0;
+  top: 0;
+}
+
+.txt {
+  width: 300px;
+  left: -2px;
+  top: 0px;
+}
+
+@keyframes txt01-anim {
+  0% {
+    transform: translateX(300px);
+    opacity: 0;
+  }
+
+  1% {
+    transform: translateX(300px);
+    opacity: 0;
+  }
+  8% {
+    transform: translateX(0px);
+    opacity: 1;
+  }
+  100% {
+    transform: translateX(0px);
+  }
+}
+
+.txt01-anim {
+  animation-name: txt01-anim;
+  animation-duration: 8s;
+  animation-iteration-count: 3;
+  animation-fill-mode: forwards;
+}
+
+@keyframes txt02-anim {
+  0% {
+    transform: translateX(300px);
+    opacity: 0;
+  }
+
+  6% {
+    transform: translateX(300px);
+    opacity: 0;
+  }
+  12% {
+    transform: translateX(0px);
+    opacity: 1;
+  }
+  100% {
+    transform: translateX(0px);
+  }
+}
+
+.txt02-anim {
+  animation-name: txt02-anim;
+  animation-duration: 8s;
+  animation-iteration-count: 3;
+  animation-fill-mode: forwards;
+}
+
+@keyframes txt03-anim {
+  0% {
+    transform: translateY(-100px) scale(0.4);
+    opacity: 0;
+  }
+
+  31% {
+    transform: translateY(-100px) scale(0.4);
+    opacity: 0;
+  }
+  35% {
+    transform: translateY(0px)  scale(1);
+    opacity: 1;
+  }
+  100% {
+    transform: translateY(0px)  scale(1);
+  }
+}
+
+.txt03-anim {
+  animation-name: txt03-anim;
+  animation-duration: 8s;
+  animation-iteration-count: 3;
+  animation-fill-mode: forwards;
+}
+
+
+@keyframes txt04-anim {
+  0% {
+    transform: translateY(-100px) scale(0.4);
+    opacity: 0;
+  }
+
+  34% {
+    transform: translateY(-100px) scale(0.4);
+    opacity: 0;
+  }
+  38% {
+    transform: translateY(0px)  scale(1);
+    opacity: 1;
+  }
+  100% {
+    transform: translateY(0px)  scale(1);
+  }
+}
+
+.txt04-anim {
+  animation-name: txt04-anim;
+  animation-duration: 8s;
+  animation-iteration-count: 3;
+  animation-fill-mode: forwards;
+}
+
+
+
+#txt01 {
+  top: 21px;
+}
+
+#txt02 {
+  top: 54px;
+}
+
+#txt03 {
+  width: 300px;
+  left: 0px;
+  top: -18px;
+}
+
+#txt04 {
+  width: 300px;
+  left: 0px;
+  top: 69px;
+}
+
+
+@keyframes logo-anim {
+  0% {
+    transform: translateX(-40px);
+    opacity: 0;
+  }
+
+  10% {
+    transform: translateX(-40px);
+    opacity: 0;
+  }
+  14% {
+    transform: translateX(0px);
+    opacity: 1;
+  }
+  100% {
+    transform: translateX(0px);
+  }
+}
+
+.logo-anim {
+  animation-name: logo-anim;
+  animation-duration: 8s;
+  animation-iteration-count: 3;
+  animation-fill-mode: forwards;
+}
+
+
+#logo {
+  width: 172px;
+  left: 21px;
+  top: 118px;
+}
+
+
+@keyframes bg-anim {
+  0% {
+    transform: translateY(-700px);
+    opacity: 0;
+  }
+
+  28% {
+    transform: translateY(-700px);
+    opacity: 0;
+  }
+  31% {
+    transform: translateY(0px);
+    opacity: 1;
+  }
+  100% {
+    transform: translateY(0px);
+  }
+}
+
+.bg-anim {
+  animation-name: bg-anim;
+  animation-duration: 8s;
+  animation-iteration-count: 3;
+  animation-fill-mode: forwards;
+}
+
+
+#bg02 {
+  width: 300px;
+  height: 600px;
+  background-color: #3c1400;
+}
+
+@keyframes laptop-anim {
+  0% {
+    transform: translateY(-300px);
+    opacity: 0;
+  }
+
+  37% {
+    transform: translateY(-300px);
+    opacity: 0;
+  }
+  42% {
+    transform: translateY(0px);
+    opacity: 1;
+  }
+  100% {
+    transform: translateY(0px);
+  }
+}
+
+.laptop-anim {
+  animation-name: laptop-anim;
+  animation-duration: 8s;
+  animation-iteration-count: 3;
+  animation-fill-mode: forwards;
+}
+
+@keyframes phone-anim {
+  0% {
+    transform: translateY(-300px);
+    opacity: 0;
+  }
+
+  40% {
+    transform: translateY(-300px);
+    opacity: 0;
+  }
+  46% {
+    transform: translateY(0px);
+    opacity: 1;
+  }
+  100% {
+    transform: translateY(0px);
+  }
+}
+
+.phone-anim {
+  animation-name: phone-anim;
+  animation-duration: 8s;
+  animation-iteration-count: 3;
+  animation-fill-mode: forwards;
+}
+
+
+@keyframes ears-anim {
+  0% {
+    transform: translateY(-300px);
+    opacity: 0;
+  }
+
+  44% {
+    transform: translateY(-300px);
+    opacity: 0;
+  }
+  50% {
+    transform: translateY(0px);
+    opacity: 1;
+  }
+  100% {
+    transform: translateY(0px);
+  }
+}
+
+.ears-anim {
+  animation-name: ears-anim;
+  animation-duration: 8s;
+  animation-iteration-count: 3;
+  animation-fill-mode: forwards;
+}
+
+@keyframes tablet-anim {
+  0% {
+    transform: translateY(-300px);
+    opacity: 0;
+  }
+
+  48% {
+    transform: translateY(-300px);
+    opacity: 0;
+  }
+  54% {
+    transform: translateY(0px);
+    opacity: 1;
+  }
+  100% {
+    transform: translateY(0px);
+  }
+}
+
+.tablet-anim {
+  animation-name: tablet-anim;
+  animation-duration: 8s;
+  animation-iteration-count: 3;
+  animation-fill-mode: forwards;
+}
+
+#laptop {
+  width: 285px;
+  left: 3px;
+  top: 200px;
+}
+#phone {
+  width: 105px;
+  left: 33px;
+  top: 349px;
+}
+#ears {
+  width: 80px;
+  left: 33px;
+  top: 177px;
+}
+#tablet {
+  width: 139px;
+  left: 140px;
+  top: 401px;
+}
+
+@keyframes shirm-anim {
+  0% {
+    opacity: 1;
+  }
+
+  3% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+.schirm-anim {
+  animation-name: shirm-anim;
+  animation-duration: 8s;
+  animation-iteration-count: 3;
+  animation-fill-mode: forwards;
+}
+
+#schirm {
+  position: absolute;
+  width: 300px;
+  height: 600px;
+  top: 0;
+  left: 0;
+  background-color: #3c1400;
+  background-size: cover;
+  opacity: 0;
+}
+  </style>
+</head>
+<body>
+    <div class="container">
+      <div id="logo" class="el  logo-anim">
+        <amp-img src="snk_logo.svg" width="172" height="50" layout="fixed">
+      </div>
+      <div id="txt01" class="el  txt  txt01-anim">
+        <amp-img src="txt01.svg" width="300" height="44" layout="fixed">
+      </div>
+      <div id="txt02" class="el  txt  txt02-anim">
+        <amp-img src="txt02.svg" width="300" height="52" layout="fixed">
+      </div>
+      <div id="bg02" class="el  bg-anim">
+      </div>
+      <div id="txt03" class="el  txt  txt03-anim ">
+        <amp-img src="txt03.svg" width="300" height="126" layout="fixed">
+      </div>
+      <div id="txt04" class="el  txt  txt04-anim ">
+        <amp-img src="txt04.svg" width="300" height="125" layout="fixed">
+      </div>
+      <div id="laptop" class="el  laptop-anim">
+        <amp-img src="laptop.png" width="285" height="239" layout="fixed">
+      </div>
+      <div id="phone" class="el  phone-anim">
+        <amp-img src="phone.png" width="105" height="149" layout="fixed">
+      </div>
+      <div id="tablet" class="el  tablet-anim">
+        <amp-img src="tablet.png" width="139" height="168" layout="fixed">
+      </div>
+      <div id="ears" class="el  ears-anim">
+        <amp-img src="ears.png" width="80" height="96" layout="fixed">
+      </div>
+
+      <div id="schirm" class="schirm-anim"></div>     
+    </div>
+</body>
